@@ -1,0 +1,26 @@
+Hi, 
+
+The approach I used to solve this assignment is:
+	1. I have used beautiful soup to extract article title and text content from the URL's provided in input file.
+	2. I have saved all the text content into a text file with URL_ID as filename.
+	3. I have used nltk, nltk pyphen module to 
+		a) remove stopwords
+		b) count syllables
+	4. I have used regex to identify personal pronouns and also to remove punchuation from words 
+	5. Calculated all the required variables and stored them in a dictionary
+	5. Converted the end result dictionary to DataFrame and saved the output results to 'Output Data Structure.xlsx' file.
+
+Please follow the below instructions to run 'webscraping_article_title_&_text' .py file
+
+1. Open the '.py' file in vscode.Replace all the below file paths to where it is saved at your end.
+	Input.xlsx
+	StopWords
+	MasterDictionary
+2. Dependencies: Install packages if not present in python directory
+	pip install beautifulsoup4 requests	
+	pip install nltk
+	pip install nltk pyphen
+	pip install openpyxl
+3. Open the terminal, select command prompt and run the file using py 'webscraping_article_title_&_text'.py
+4. Once, the file gets executed successfully, you can find the output excel file in the same folder.
+	Output Data Structure.xlsx
