@@ -1,5 +1,5 @@
 Hi, 
-
+Follow this text file on how to run 'webscraping_article_title_&_text.py' file
 The approach I used to solve this assignment is:
 	1. I have used beautiful soup to extract article title and text content from the URL's provided in input file.
 	2. I have saved all the text content into a text file with URL_ID as filename.
